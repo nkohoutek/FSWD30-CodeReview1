@@ -1,0 +1,107 @@
+#container {
+	margin: 0 auto;
+	width: 800px;
+}
+
+body {
+	font-family: "Chivo", sans-serif;
+	font-size: 12t;
+	color: #FFFFFF;
+}
+
+#navigation {
+	overflow: hidden;
+	width: 800px;
+	padding-top: 3px;
+}
+
+#header {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 800px;
+	background-color: #e05151;
+}
+
+#header img {
+	float: left;
+}
+
+#header p {
+	margin-top: 20px;
+}
+
+#navigation ul {
+	list-style-type: none;
+	margin: 0px;
+	overflow: hidden;
+	width: 800px;
+	background-color:  #868686;
+}
+
+#navigation li {
+	float: left;
+}
+
+#navigation li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+#navigation li a:hover {
+    background-color:  #e05151;
+}
+
+#main {
+	text-align: left;
+	background-color: #FFFFFF;
+	width: 800px;
+	overflow: hidden;
+	color: #000000;
+}
+
+.colum {
+	background-color: #FFFFFF;
+	overflow: hidden;
+	float: left;
+    width: 50%;
+}
+
+.imgmain {
+	width: 375px;
+	height: 250px;
+}
+
+
+#footer {
+	background-color: #e05151;
+	text-align: center;
+	overflow: hidden;
+}
+
+#footer p {
+	margin-bottom: 8px;
+}
+
+
+h1 {
+	font-size: 14pt;
+}
+
+h2 {
+	font-size: 13pt;
+	background-color: #868686;
+	opacity: 0.5;
+	text-shadow: #e05151 2px 1px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+.poem {
+	border: 2px dotted #e05151;
+	display: inline-block;
+	padding: 5px;
+}
